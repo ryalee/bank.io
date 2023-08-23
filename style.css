@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Poppins:wght@200;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Poppins:wght@200;300&family=Raleway:wght@200;300;500&display=swap');
 
 * {
   margin: 0;
@@ -6,7 +6,7 @@
 }
 
 body {
-  font-family: 'Inter', sans-serif;
+ font-family: 'Raleway', sans-serif;
 }
 
 /* HEADER */
@@ -92,6 +92,7 @@ header {
 }
 
 .heroContent-text h1 {
+  font-weight: 500;
   font-size: 28pt;
 }
 
@@ -200,11 +201,14 @@ header {
 }
 
 .benefits-text h1 {
+  font-weight: 500;
   font-size: 24pt;
 }
 
 .benefits-text li {
-  font-size: 12pt;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 11pt;
   width: 400px;
   margin-top: 10px;
   margin-bottom: 10px;
@@ -212,7 +216,7 @@ header {
 }
 
 .benefits img {
-  margin-top: -28rem;
+  margin-top: -30rem;
   margin-left: 60rem;
 }
 
@@ -226,3 +230,142 @@ header {
   cursor: pointer;
 }
 /* Close Benefits */
+
+/* Why Our Service? */
+.whyUs-mainText {
+  display: flex;
+  flex-direction: column;
+  margin-top: 180px;
+  margin-left: 140px;
+  width: 600px;
+  width: 36rem;
+  font-size: 14pt;
+  padding: 10px;
+}
+
+.numericData {
+  display: flex;
+  flex-direction: row;
+  padding: 0 10px;
+  width: 86%;
+  text-align: center;
+  margin-top: 20px;
+  margin-left: -10px;
+}
+
+.numericData article {
+  width: 100%;
+}
+
+.numericData article h4 {
+  padding: 8px;
+  font-size: 18pt;
+  margin: 0 30px;
+}
+
+.numericData article p { 
+  font-size: 12pt;
+}
+
+.whyUs-list ul {
+  position: absolute;
+  margin: -170px 700px;
+  display: grid;
+  grid-template-columns: 200px 200px 200px;
+}
+
+.whyUs-list li {
+  list-style: inside;
+  border-right: 1px solid #ccc;
+  font-size: 13pt;
+  padding: 10px 20px;
+  margin-bottom: 30px;
+}
+/* Close WOS */
+
+/* Plans */
+.pricingText {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-size: 12pt;
+  margin-top: 120px;
+  gap: 10px;
+}
+
+.plans {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 30px 0;
+}
+
+.planCard {
+  width: 300px;
+  height: 400px;
+  list-style: inside;
+  padding: 30px 20px;
+}
+
+.planText {
+  font-size: 12pt;
+  padding: 20px;
+}
+
+.planText h3 {
+  font-size: 16pt;
+  text-align: center;
+}
+
+.planText h5 {
+  font-size: 12pt;
+  text-align: center;
+}
+
+.price {
+  font-size: 30pt;
+  text-align: center;
+}
+
+.price label {
+  font-size: 12pt;
+}
+
+.planText ul {
+  margin-top: 40px;
+  margin-left: 20px;
+  list-style-image: url(img/check.png);
+}
+
+.planText ul li {
+  padding-bottom: 10px;
+}
+
+.planCard input {
+  padding: 14px;
+  border-radius: 50px;
+  margin-left: 8rem;
+}
+
+.basicPlan input, 
+.premiumPlan input {
+  background-color: #252525;
+  color: #fff;
+  border: 1px solid;
+  cursor: pointer;
+}
+
+.standardPlan {
+  background-color: #252525;
+  color: #fff;
+  border-radius: 10px;
+  margin: 0 -100px;
+}
+
+.standardPlan input {
+  background-color: #fff;
+  color: #505050;
+  border: 1px solid;
+  cursor: pointer;
+}
+/* Close Plans */
