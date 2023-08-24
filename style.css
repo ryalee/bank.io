@@ -9,7 +9,6 @@ body {
  font-family: 'Raleway', sans-serif;
 }
 
-/* HEADER */
 header {
   display: flex;
   flex-direction: row;
@@ -73,8 +72,7 @@ header {
   background-color: #000;
   color: #fff;
 }
-/* CLOSE HEADER */
-/* HERO CONTENT */
+
 .heroContent-text {
   width: 400px;
   margin: 180px 210px;
@@ -133,8 +131,7 @@ header {
   width: 500px;
   margin: -230px 60rem;
 }
-/* CLOSE HERO CONTENT */
-/* How It Works */
+
 .howWorks img {
   position: absolute;
   width: 800px;
@@ -188,9 +185,7 @@ header {
   font-size: 14pt;
   margin-bottom: 6px;
 }
-/* Close HIW */
 
-/* Benefits */
 .benefits {
   cursor: default;
 }
@@ -229,9 +224,7 @@ header {
   margin-right: 10px;
   cursor: pointer;
 }
-/* Close Benefits */
 
-/* Why Our Service? */
 .whyUs-mainText {
   display: flex;
   flex-direction: column;
@@ -281,15 +274,13 @@ header {
   padding: 10px 20px;
   margin-bottom: 30px;
 }
-/* Close WOS */
 
-/* Plans */
 .pricingText {
   display: flex;
   flex-direction: column;
   text-align: center;
   font-size: 12pt;
-  margin-top: 120px;
+  margin-top: 180px;
   gap: 10px;
 }
 
@@ -368,4 +359,165 @@ header {
   border: 1px solid;
   cursor: pointer;
 }
-/* Close Plans */
+
+.userFeedback {
+  background-color: #e9eaee;
+  height: 410px;
+  margin-top: 200px;
+  margin-bottom: 100px;
+}
+
+.userFeedback h1 {
+  position: absolute;
+  margin: 70px 0 0 150px;
+  font-size: 18pt;
+  width: 300px;
+  padding: 10px;
+}
+
+.userFeedback h1 i {
+  position: absolute;
+  font-size: 16pt;
+  margin-top: -14px;
+  margin-left: -25px;
+}
+
+.feedbackText {
+  width: 400px;
+  position: absolute;
+  margin: 150px;
+}
+
+.feedbackText p:first-child {
+  font-size: 11pt;
+  margin-bottom: 10px;
+}
+
+.userInfo h6 {
+  font-size: 12pt;
+  margin-bottom: 8px;
+  margin-left: 6px;
+}
+
+.starFeedback {
+  display: flex;
+  font-size: 14pt;
+}
+
+.starFeedback p {
+  margin-left: 8px;
+  margin-top: -4px;
+}
+
+.userFeedback img {
+  margin-left: 530px;
+  position: relative;
+}
+
+.fb2, .fb3, .fb4 {
+  display: none;
+}
+
+.fb1.active {
+  display: none;
+}
+
+.fb2.active, 
+.fb3.active, 
+.fb4.active {
+  display: block;
+}
+
+.nextPrevButtons {
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  margin: 320px 0 0 390px;
+  font-size: 22pt;
+}
+
+.prevBtn {
+  margin-right: 12px;
+}
+
+footer {
+  background-color: #e9eaee;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 200px;
+  margin-bottom: -100px;
+  padding: 20px 0 8px 10px;
+}
+
+.downloadInfo {
+  font-size: 12pt;
+  margin: 20px;
+}
+
+.downloadInfo h3 {
+  margin-bottom: 15px;
+}
+
+.downloadInfo img {
+  cursor: pointer;
+  width: 300px;
+}
+
+.footerLinks a {
+  font-size: 10pt;
+  list-style: none;
+  color: #000;
+}
+
+.footerLinks h4 {
+  font-size: 11pt;
+  margin-bottom: 6px;
+}
+
+.newsletter h4 {
+  font-size: 11pt;
+  margin-bottom: 20px;
+}
+
+.newsletter input:first-of-type {
+  padding: 10px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border: 1px solid;
+}
+
+.newsletter input:last-of-type {
+  padding: 10px 12px 10px 10px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  margin-left: -10px;
+  border: 1px solid #000;
+  color: #e9eaee;
+  background-color: #000;
+}
+
+.newsletter input:focus {
+  outline: none;
+}
+
+.socialLinks {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  text-align: center;
+  margin-right: 70px;
+}
+
+.socialLinks h5 {
+  font-size: 11pt;
+}
+
+.socialLinks i {
+  cursor: pointer;
+  margin-top: 8px;
+  margin-left: 12px;
+  font-size: 12pt;
+}
+
