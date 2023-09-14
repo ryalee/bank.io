@@ -13,3 +13,16 @@ function prevItem() {
   item1.classList.remove('active');
   item2.classList.remove('active');
 }
+
+function showMenuNav() {
+  const menu = document.querySelector('.header-menuNav');
+  const menuButton = document.querySelector('.fa-bars-staggered');
+
+  menu.classList.toggle('displayed');
+  menuButton.classList.toggle('fa-x');
+}
+
+function showLoginButtons() {
+  const loginBtn = document.querySelector('.loginZone');
+  loginBtn.classList.toggle('displayed');
+}
