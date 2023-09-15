@@ -219,6 +219,10 @@ header {
   margin-left: 60rem;
 }
 
+.moneyImg {
+  display: none;
+}
+
 .benefitsBtn {
   background-color: #000;
   color: #fff;
@@ -606,6 +610,10 @@ footer {
     display: none;
   }
 
+  .howWorks {
+    margin-top: 300px;
+  }
+
   .howWorks h1 {
     margin-left: 10px;
   }
@@ -627,4 +635,75 @@ footer {
     margin-top: 15px;
     margin-bottom: 10px;
   }
+
+  .benefits {
+    cursor: default;
+    margin-left: 50px;
+  }
+  
+  .benefits-text {
+    margin-top: 120px;
+    margin-left: 4rem;
+    width: 300px;
+  }
+  
+  .benefits-text h1 {
+    font-weight: 500;
+    font-size: 22pt;
+    text-align: center;
+  }
+  
+  .benefits-text li {
+    width: 300px;
+  }
+
+  .benefitsBtn {
+    margin-left: 80px;
+  }
+
+  .benefits img {
+    margin-top: -30rem;
+    margin-left: 60rem;
+    display: none;
+  }
+
+  .whyUs-mainText {
+    margin-left: 20px;
+  }
+
+  .whyUs-mainText h1 {
+    text-align: center;
+  }
+
+  .whyUs-list ul {
+    margin-left: 90px;
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+  }
+
+  .whyUs-list ul li:nth-child(odd) {
+    border-left: 1px solid #ccc;
+  }
+
+  .pricing {
+    margin-top: 380px;
+  }
+
+  .pricingText p {
+    text-align: center;
+    width: 400px;
+    margin-left: 40px;
+  }
+
+
+  /* .standardPlan {
+    background-color: #000;
+    padding-bottom: 70px;
+    position: relative;
+  }
+
+  .standardPlan input {
+    margin-left: 50px;
+  } */
 }
