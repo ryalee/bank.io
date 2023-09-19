@@ -24,7 +24,6 @@
       </ul>
     </nav>
 
-
     <div class="loginZone">
       <a href="#"><input type="button" value="Sign In" class="login-btn signInBtn"></a>
       <a href="#"><input type="button" value="Sign Up" class="login-btn signUpBtn"></a>
@@ -130,7 +129,7 @@
 
       <div class="plans">
         <article class="basicPlan planCard">
-          <div class="basicPlan-text planText">
+          <div class="basicPlan-text planText" >
             <h3>Basic</h3>
             <p class="price">$0.00<label>/month</label></p>
             <h5>Free Account</h5>
@@ -147,7 +146,7 @@
         </article>
 
         <article class="standardPlan planCard">
-          <div class="standardPlan-text planText">
+          <div class="standardPlan-text planText" onclick="nextPrice()">
             <h3>Standard</h3>
             <p class="price">$9.90<label>/month</label></p>
             <h5>All Basic features</h5> 
@@ -166,7 +165,7 @@
         </article>
 
         <article class="premiumPlan planCard">
-          <div class="premiumPlan-text planText">
+          <div class="premiumPlan-text planText" onclick="nextPrice()">
             <h3>Premium</h3>
             <p class="price">$15.90<label>/month</label></p>
             <h5>All Basic + Standart features</h5>
@@ -278,6 +277,6 @@
     </div>
   </footer>
 
-  <script src="script.js"></script>
+<script src="script.js"></script>
 </body>
 </html>

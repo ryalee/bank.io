@@ -669,6 +669,11 @@ footer {
 
   .whyUs-mainText {
     margin-left: 20px;
+    text-align: center;
+  }
+
+  .numericData {
+    margin-left: 20px;
   }
 
   .whyUs-mainText h1 {
@@ -676,7 +681,7 @@ footer {
   }
 
   .whyUs-list ul {
-    margin-left: 90px;
+    margin-left: 110px;
     margin-top: 30px;
     display: grid;
     grid-template-columns: 2fr 2fr;
@@ -696,14 +701,83 @@ footer {
     margin-left: 40px;
   }
 
+  .plans {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .price {
+    position: absolute;
+    color: #fff;
+    font-size: 16pt;
+    margin-top: -60px;
+    margin-left: -28px;
+  }
+  
+  .planCard {
+    background-color: #252525;
+    width: 100px;
+    height: 350px;
+    border: 1px solid #252525;
+    border-radius: 12px;
+  }
+  
+  .planCard input {
+    background-color: #252525;
+    color: #fff;
+    border: 1px solid;
+  }
 
-  /* .standardPlan {
-    background-color: #000;
-    padding-bottom: 70px;
+  .planText h3, 
+  .planText h5 {
+    margin-top: -10px;
+    font-size: 10pt;
+    margin-top: 20px;
     position: relative;
+    color: #ccc;
+  }
+
+  .planText h3 {
+    font-size: 16pt;
+    margin-bottom: -20px;
+  }
+  
+  .planText ul {
+    font-size: 2pt;
+    width: 120px;
+    margin-left: -22px;
+    margin-top: 20px;
+    color: #fff;
+  }
+
+  .basicPlan {
+    margin-left: 10px;
+  }
+
+  .basicPlan input {
+    margin-left: -4px;
+    margin-top: 60px;
   }
 
   .standardPlan input {
-    margin-left: 50px;
-  } */
+    margin-left: -2px;
+    margin-top: -2px;
+  }
+
+  .premiumPlan input {
+    margin-left: -2px;
+    margin-top: 70px;
+  }
+
+  .premiumPlan {
+    margin-right: 10px;
+  }
+
+  .standardPlan h3 {
+    margin-left: -12px;
+  }
+
+  .premiumPlan h3 {
+    margin-left: -12px;
+  }
 }
